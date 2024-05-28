@@ -1,9 +1,13 @@
 {
   "home": {
-    "title": "Welcome"
+    "title": "Welcome to Valentin Wagner IT-Engineering",
+    "about": "Valentin Wagner IT-Engineering is a one-man business and was founded in 2023.\nI am currently working mainly on Case Clicker Online."
   },
   "projects": {
-    "title": "Projects"
+    "title": "Project Overview",
+    "desciptions": {
+      "caseclickeronline": "Case Clicker Online is a multiplayer focused, free to play Counter-Strike 2 case simulator. Over 30000 registered players collect skins in their inventories. I am reguarly working on that game since October 2022."
+    }
   },
   "legal-notice": {
     "title": "Legal Notice",

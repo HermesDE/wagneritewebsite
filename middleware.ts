@@ -23,6 +23,7 @@ export function middleware(request: NextRequest) {
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
+  if (pathname.includes("images")) return NextResponse.next();
   if (pathnameHasLocale) return;
 
   // Redirect if there is no locale
